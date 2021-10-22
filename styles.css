@@ -1,0 +1,213 @@
+
+#title{
+
+  background:#ff4c68
+}
+
+body{
+  font-family: 'Ubuntu';
+  color: #fff;
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* Nav bar & title classes */
+
+@media (max-width:991px){
+  #title{
+    text-align: center;
+  }
+}
+.container-fluid{
+  padding: 3% 15% 7% 15%;
+}
+
+.navbar{
+ padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  padding: 0 0 1rem 0;
+}
+
+.nav-item{
+  padding: 0 50px;
+}
+
+@media (max-width: 991px) {
+  .title-text{
+    font-size: 50px;
+  }
+}
+
+/* phone image rotate */
+.phone-img {
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+}
+
+@media (max-width: 991px){
+  .phone-img{
+    position: static;
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+}
+
+
+/* Download button */
+.download-btn{
+  margin: 10px 20px 0 0;
+  font-size: 15px;
+}
+
+
+
+/* Features section */
+#features{
+  background-color: white;
+  color: black;
+  padding: 6% 6%;
+  text-align: center;
+  position: relative;
+
+}
+
+.features{
+  padding: 0 50px 0 50px;
+}
+
+#features i:hover{
+color: #ff4c68;
+}
+
+h3{
+
+  font-family: "Montserrat-Black";
+}
+
+p{
+  color: grey;
+}
+
+
+/* Testimonials section */
+#testimonials{
+  padding-top: 50px;
+  background-color: #ff4c68;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.testimonial-text{
+  font-size: 40px;
+}
+
+.carousel-item{
+  padding: 10px 500px;
+}
+
+@media (max-width:1340px) {
+  .carousel-item{
+    padding: 10px 100px;
+    text-align: center;
+    font-size: 30px;
+
+  }
+}
+
+.testimonials-image{
+  text-align: center;
+  margin-top: 10%;
+  padding: 10px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+@media (max-width:991px){
+  em{
+    font-size: 15px
+  }
+}
+
+
+
+
+/* Press section  */
+#press{
+  text-align:center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background-color:#ff4c68;
+}
+
+.press{
+  width: 15%;
+  padding:1%;
+}
+
+
+/* Pricing section  */
+.dog-plan{
+  color: black;
+  padding-bottom: 3%;
+  text-align: center;
+
+}
+
+#pricing{
+  padding-top: 50px;
+}
+
+.price{
+  color: black;
+}
+
+.dog-name{
+  color: black;
+}
+
+.mastiff-options{
+  font-size: 10px;
+  font-family: "Montserrat-Black";
+}
+
+
+/* Call to action section */
+#cta{
+  padding: 5% 35%;
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  height: 350px;
+}
+
+.download-bottom-btn{
+  margin:10% 4%
+
+}
+
+/* Footer section */
+#footer{
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer{
+  margin: 4% 1% 1%;
+}
+
+@media(max-width:991px){
+  .download-bottom-btn{
+    margin-bottom: 2%
+  }
+}
